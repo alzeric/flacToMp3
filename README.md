@@ -1,6 +1,6 @@
 # flacToMp3
 
-## Join us on Discord for (almost) instant support/help/interaction##
+## Join us on Discord for (almost) instant support/help/interaction
 [https://discord.gg/N6ecRsmE](https://discord.gg/N6ecRsmE)
 
 ## What does this do? ##
