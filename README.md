@@ -13,7 +13,7 @@ Recursively finds and converts .flac files into .mp3 files
 | FFMPEG | Recommended GPL build [Download](https://github.com/BtbN/FFmpeg-Builds/releases) |
 
 ## Usage ## 
-  *Python flac2mp3.py*
+  *Python flacToMp3.py*
   
    **CLI Options**
    |       flag      |                              description                              |
