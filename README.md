@@ -28,7 +28,7 @@ Recursively finds and converts .flac files into .mp3 files
 
 ## Output ##
   
-  Out of the box what is the FFMPEG commang being used?
+  **Out of the box what is the FFMPEG commang being used?**
   
   `ffmpeg (-y/-n) -i "{file}" -ab 320k -map_metadata 0 -id3v2_version 3 "{file.mp3}"`
   
@@ -36,7 +36,7 @@ Recursively finds and converts .flac files into .mp3 files
   
   If you need assist feel free to pop in to discord and hit me up.
 
- Can this be changed?
+ **Can this be changed?**
  
  Yes quite easily, first line in the flacToMp3 def contains the current ffmpeg settings
 
