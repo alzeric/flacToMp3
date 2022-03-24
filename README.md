@@ -37,7 +37,8 @@ Recursively finds and converts .flac files into .mp3 files
   If you need assist feel free to pop in to discord and hit me up.
 
  Can this be changed?
- Yes quite easily, first line in the flacToMp3 def contains the hard coded 
+ 
+ Yes quite easily, first line in the flacToMp3 def contains the current ffmpeg settings
 
 ## Hey you! Yeh You! ##
 You're awesome for checking out this project I hope you enjoy this and any other apps/tools/scripts I create or help create.  
