@@ -26,6 +26,19 @@ Recursively finds and converts .flac files into .mp3 files
    | version or -ver | *outputs version of flac2mp3 class* |
    | debug or -debug | *runs through all aspects of the script without processing or deleting* |
 
+## Output ##
+  
+  Out of the box what is the FFMPEG commang being used?
+  
+  `ffmpeg (-y/-n) -i "{file}" -ab 320k -map_metadata 0 -id3v2_version 3 "{file.mp3}"`
+  
+  (-y/-n) is the overwrite file flag (y for yes | n for no) this is currently controlled via the -ao script flag see my code for an example.
+  
+  If you need assist feel free to pop in to discord and hit me up.
+
+ Can this be changed?
+ Yes quite easily, first line in the flacToMp3 def contains the hard coded 
+
 ## Hey you! Yeh You! ##
 You're awesome for checking out this project I hope you enjoy this and any other apps/tools/scripts I create or help create.  
 
